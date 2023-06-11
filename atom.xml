@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wanghow13.github.io</id>
+    <title>How&apos;s   Blog</title>
+    <updated>2023-06-11T12:21:08.738Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wanghow13.github.io"/>
+    <link rel="self" href="https://wanghow13.github.io/atom.xml"/>
+    <subtitle>Welcome to 一克力普斯’s  Blog.
+</subtitle>
+    <logo>https://wanghow13.github.io/images/avatar.png</logo>
+    <icon>https://wanghow13.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, How&apos;s   Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[plan9]]></title>
+        <id>https://wanghow13.github.io/post/ZheyT9lzF/</id>
+        <link href="https://wanghow13.github.io/post/ZheyT9lzF/">
+        </link>
+        <updated>2023-06-04T06:14:23.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="写在前面">写在前面</h1>
+<p><strong>本文介绍了plan9及其发行版9front，plan9于2015-1-10 停止维护更新，而9front至今仍在维护更</strong>新！</p>
+<h1 id="简介">简介</h1>
+<p>plan9简介</p>
+<blockquote>
+<p>Plan 9是一种操作系统，由贝尔实验室开发，旨在成为Unix的继承者。Plan 9采用了一种分布式计算模型，使不同计算机之间的通信和资源共享变得更加容易和高效。它还具有许多其他特性，如文件系统作为第一类对象、强大的安全性和权限管理等。虽然Plan 9从未成为主流操作系统，但它仍然被视为一个重要的研究项目，并且对于现代分布式系统的设计有着深远的影响。</p>
+</blockquote>
+<h1 id="获取镜像">获取镜像</h1>
+<pre><code>https://plan9.io/
+</code></pre>
+<h1 id="系统安装">系统安装</h1>
+<h2 id="vmware虚拟机的安装">Vmware虚拟机的安装</h2>
+<p><img src="https://wanghow13.github.io/post-images/1685859684182.png" alt="" loading="lazy"><br>
+选择稍后安装操作系统<br>
+<img src="https://wanghow13.github.io/post-images/1685859901002.png" alt="" loading="lazy"><br>
+plan9 32位和64位均支持<br>
+<img src="https://wanghow13.github.io/post-images/1685860553423.png" alt="" loading="lazy"><br>
+选择并挂载cd 镜像<br>
+<img src="https://wanghow13.github.io/post-images/1685860720321.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1685860847993.png" alt="" loading="lazy"><br>
+开启虚拟机并安装操作系统<br>
+<img src="https://wanghow13.github.io/post-images/1685862561841.png" alt="" loading="lazy"><br>
+1，yes<br>
+<img src="https://wanghow13.github.io/post-images/1685862647725.png" alt="" loading="lazy"><br>
+默认选项<br>
+<img src="https://wanghow13.github.io/post-images/1685862882433.png" alt="" loading="lazy"><br>
+！ 提示启动rio失败<br>
+usb设备不存在<br>
+<img src="https://wanghow13.github.io/post-images/1685863334708.png" alt="" loading="lazy"><br>
+<s>查看，果然不存在，点击添加</s>(未解决)<br>
+<img src="https://wanghow13.github.io/post-images/1685863416650.png" alt="" loading="lazy"><br>
+添加后仍然安装失败，参考官方文档(未解决)</p>
+<p><code>https://9p.io/wiki/plan9/installation_instructions/</code><br>
+<img src="https://wanghow13.github.io/post-images/1685866090330.png" alt="" loading="lazy"></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2785209"><label class="task-list-item-label" for="task-item-2785209"> ffff</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5926370"><label class="task-list-item-label" for="task-item-5926370"> eee</label></li>
+</ul>
+<h1 id="排错">排错</h1>
+<p><img src="https://wanghow13.github.io/post-images/1685866623704.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1685866736104.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1685866747247.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1685866840527.png" alt="" loading="lazy"></p>
+<h1 id="9front">9front</h1>
+<blockquote>
+<p>9front是一个基于Plan 9操作系统的社区发行版，它包含了一些Plan 9没有的新功能和工具。其中一些新功能和工具包括：新的文件系统支持、新的设备驱动程序、更好的网络支持、更好的图形界面支持、更好的多媒体支持、更好的编程环境等。此外，9front社区也非常活跃，经常会发布新的更新和补丁，以改进系统的性能和稳定性。总的来说，9front可以被看作是Plan 9的一个增强版。</p>
+</blockquote>
+<pre><code>http://9front.org/
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://wanghow13.github.io/post-images/1685870779960.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google搜索技巧]]></title>
+        <id>https://wanghow13.github.io/post/k9MTaFYJ-/</id>
+        <link href="https://wanghow13.github.io/post/k9MTaFYJ-/">
+        </link>
+        <updated>2023-06-01T12:47:30.000Z</updated>
+        <content type="html"><![CDATA[<p>当使用Google进行搜索时，以下是一份使用Markdown格式的Google搜索技巧指南：</p>
+<ul>
+<li>
+<p><strong>引号</strong>：使用引号将短语括起来，以搜索精确的短语。例如：<code>&quot;人工智能入门&quot;</code></p>
+</li>
+<li>
+<p><strong>排除词</strong>：使用减号排除特定的词语。例如：<code>苹果 -手机</code></p>
+</li>
+<li>
+<p><strong>网站限定</strong>：使用<code>site:</code>限定搜索特定网站中的内容。例如：<code>机器学习 site:openai.com</code></p>
+</li>
+<li>
+<p><strong>相关词</strong>：使用波浪号搜索与给定词相关的同义词。例如：<code>~健康饮食</code></p>
+</li>
+<li>
+<p><strong>通配符</strong>：使用星号作为通配符，匹配未知的单词或短语。例如：<code>人工智能 * 医疗</code></p>
+</li>
+<li>
+<p><strong>文件类型</strong>：使用<code>filetype:</code>限定搜索特定类型的文件。例如：<code>人工智能 filetype:pdf</code></p>
+</li>
+<li>
+<p><strong>计算器</strong>：在搜索框中输入数学表达式进行计算。例如：<code>2 + 2 * 5</code></p>
+</li>
+<li>
+<p><strong>单位转换</strong>：输入&quot;x单位 to y单位&quot;进行单位转换计算。例如：<code>100英里到千米</code></p>
+</li>
+<li>
+<p><strong>时区</strong>：输入<code>time</code>以查看当前的本地时间和其他时区的时间</p>
+</li>
+</ul>
+<p>这些技巧可以帮助你更准确地搜索到你所需的信息。使用适当的语法和功能，你可以优化搜索结果并更高效地获取所需的知识。此技巧同样适用于国内搜索引擎</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zstack]]></title>
+        <id>https://wanghow13.github.io/post/0Zf1NsYq7/</id>
+        <link href="https://wanghow13.github.io/post/0Zf1NsYq7/">
+        </link>
+        <updated>2023-05-22T09:48:28.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="1安装zstack镜像">1.安装zstack镜像</h2>
+<figure data-type="image" tabindex="1"><img src="https://wanghow13.github.io/post-images/1684749134307.png" alt="" loading="lazy"></figure>
+<h2 id="2重新启动并登录">2.重新启动并登录</h2>
+<figure data-type="image" tabindex="2"><img src="https://wanghow13.github.io/post-images/1684749162222.png" alt="" loading="lazy"></figure>
+<h3 id="21安装服务">2.1安装服务</h3>
+<figure data-type="image" tabindex="3"><img src="https://wanghow13.github.io/post-images/1684749183791.png" alt="" loading="lazy"></figure>
+<h4 id="211如果没有自动安装需手动安装服务">2.1.1如果没有自动安装需手动安装服务</h4>
+<pre><code class="language-shell">bash /opt/zstack-*installer.bin -E -I 本机IP
+</code></pre>
+<p><img src="https://wanghow13.github.io/post-images/1684749216110.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1684749263743.png" alt="" loading="lazy"></p>
+<h3 id="22服务安装成功">2.2服务安装成功</h3>
+<figure data-type="image" tabindex="4"><img src="https://wanghow13.github.io/post-images/1684749254250.png" alt="" loading="lazy"></figure>
+<h3 id="23查看本机ip">2.3查看本机IP</h3>
+<figure data-type="image" tabindex="5"><img src="https://wanghow13.github.io/post-images/1684749283197.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://wanghow13.github.io/post-images/1684749305031.png" alt="" loading="lazy"></figure>
+<h3 id="24进行zstack-cloud平台基本的初始化环境配置">2.4进行ZStack Cloud平台基本的初始化环境配置。</h3>
+<figure data-type="image" tabindex="7"><img src="https://wanghow13.github.io/post-images/1684749314674.png" alt="" loading="lazy"></figure>
+<p><strong>开始初始化</strong></p>
+<p><img src="https://wanghow13.github.io/post-images/1684749349048.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1684749356701.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1684749368103.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1684749374303.png" alt="" loading="lazy"><br>
+<img src="https://wanghow13.github.io/post-images/1684749380012.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World !  :-）]]></title>
+        <id>https://wanghow13.github.io/post/hQS_iiclu/</id>
+        <link href="https://wanghow13.github.io/post/hQS_iiclu/">
+        </link>
+        <updated>2023-05-21T11:47:45.000Z</updated>
+        <content type="html"><![CDATA[<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C]]></title>
+        <id>https://wanghow13.github.io/post/RW-QFUlXG/</id>
+        <link href="https://wanghow13.github.io/post/RW-QFUlXG/">
+        </link>
+        <updated>2023-01-25T05:41:52.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="make">Make</h3>
+<p>Makefile</p>
+<blockquote>
+<p>CFLAGS:用于c的编译器选项<br>
+CXXFLAGS:C++的编译器选项<br>
+LDFLAGS:gcc 等编译器会用到的一些优化参数，也可以在里面指定库文件的位置。<br>
+LIBS：告诉链接器要链接哪些库文件，如LIBS = -lpthread -liconv</p>
+</blockquote>
+<pre><code class="language-Plain">gcc -o hello hello.c -I /home/hello/include -L /home/hello/lib -lworld
+</code></pre>
+<blockquote>
+<p><code>-lworld</code>表示在上面的lib的路径中寻找libworld.so动态库文件（如果gcc编译选项中加入了“-static”表示寻找libworld.a静态库文件）</p>
+</blockquote>
+<pre><code class="language-Plain">-I /home/hello/include`表示将/home/hello/include目录作为第一个寻找头文件的目录，寻找的顺序是：`/home/hello/include--&gt;/usr/include--&gt;/usr/local/include
+-L /home/hello/lib`表示将/home/hello/lib目录作为第一个寻找库文件的目录，寻找的顺序是：`/home/hello/lib--&gt;/lib--&gt;/usr/lib--&gt;/usr/local/lib
+</code></pre>
+<h3 id="数据类型">数据类型</h3>
+<pre><code class="language-C">windows操作系统，64位机中
+​
+char：    1个字节
+​
+short：   2个字节
+​
+int：       4个字节
+
+long：    4个字节
+</code></pre>
+<p><strong>整数</strong></p>
+<pre><code class="language-Plain">%d  整数的参数会被//转成有符号的十进制数字
+%u  整数的参数会被//转成无符号的十进制数字
+%o  整数的参数会被//转成无符号的八进制数字
+%x  整数的参数会被//转成无符号的十六进制数字，并以小写abcdef 表示
+%X  整数的参数会被//转成无符号的十六进制数字，并以大写ABCDEF 表示浮点型数
+%f double  型的参数会被//转成十进制数字，并取到小数点以下六位，四舍五入
+%e double  型的参数以/*指数形式打印*/，有一个数字会在小数点前，六位数字在小数点后，而在指数部分会以小写的e 来表示
+%E 与%e 作用相同，唯一区别是指数部分将以大写的E 来表示
+%g double  型的参数会自动选择以%f 或%e 的格式来打印，其标准是根据打印的数值及所设置的有效位数来决定。
+%G 与%g 作用相同，唯一区别在以指数形态打印时会选择%E 格式。
+​
+</code></pre>
+<p><strong>字符及字符串</strong></p>
+<pre><code class="language-Plain">%c 整型数的参数会被转成unsigned char 型打印出
+%s 指向字符串的参数会被逐字输出，直到出现NULL 字符为止
+%p 如果是参数是&quot;void *&quot;型指针则使用十六进制格式显示
+</code></pre>
+<h3 id="结构体">结构体</h3>
+<p>结构体声明</p>
+<pre><code class="language-C">struct结构体名
+{
+    成员列表
+}；
+</code></pre>
+<p><em><strong>说明：</strong></em><br>
+最后的分号千万不能省略。为了防止最后忘记分号，最好先将框架写出来，写的时候直接把分号加上：</p>
+<p><strong>typedef</strong>: 给结构体起别名</p>
+<blockquote>
+<p>typedef 详见关键字</p>
+</blockquote>
+<h2 id="错误处理">错误处理</h2>
+<p>erron:c的外部库：用于储存最后的错误信息<br>
+perror：输出错误信息</p>
+<h2 id="关键字">关键字</h2>
+<h3 id="typedef的4种用法">typedef的4种用法</h3>
+<p>在实际使用中，typedef 的应用主要有如下4种。</p>
+<h4 id="1-为基本数据类型定义新的类型名">1) 为基本数据类型定义新的类型名</h4>
+<p>也就是说，系统默认的所有基本类型都可以利用 typedef 关键字来重新定义类型名，示例代码如下所示：</p>
+<pre><code class="language-Plain">typedef unsigned int COUNT;
+</code></pre>
+<p>而且，我们还可以使用这种方法来定义与平台无关的类型。比如，要定义一个叫 REAL 的浮点类型，在目标平台一上，让它表示最高精度的类型，即：</p>
+<pre><code class="language-Plain">typedef long double REAL;
+</code></pre>
+<p>在不支持 long double 的平台二上，改为：</p>
+<pre><code class="language-Plain">typedef double REAL;
+</code></pre>
+<p>甚至还可以在连 double 都不支持的平台三上，改为：</p>
+<pre><code class="language-Plain">typedef float REAL;
+</code></pre>
+<p>这样，当跨平台移植程序时，我们只需要修改一下 typedef 的定义即可，而不用对其他源代码做任何修改。其实，标准库中广泛地使用了这个技巧，比如 size_t 在 VC++2010 的 crtdefs.h 文件中的定义如下所示：</p>
+<pre><code class="language-Plain">[[ifndef]] _SIZE_T_DEFINED#ifdef  _WIN64typedef unsigned __int64    size_t;#elsetypedef _W64 unsigned int   size_t;#endif#define _SIZE_T_DEFINED#endif
+</code></pre>
+<h4 id="2-为自定义数据类型结构体-共用体和枚举类型定义简洁的类型名称">2) 为自定义数据类型（结构体、共用体和枚举类型）定义简洁的类型名称</h4>
+<p>以结构体为例，下面我们定义一个名为 Point 的结构体：</p>
+<pre><code class="language-Plain">struct Point{    double x;    double y;    double z;};
+</code></pre>
+<p>在调用这个结构体时，我们必须像下面的代码这样来调用这个结构体：</p>
+<pre><code class="language-Plain">struct Point oPoint1={100，100，0};struct Point oPoint2;
+</code></pre>
+<p>在这里，结构体 struct Point 为新的数据类型，在定义变量的时候均要向上面的调用方法一样有保留字 struct，而不能像 int 和 double 那样直接使用 Point 来定义变量。现在，我们利用 typedef 定义这个结构体，如下面的代码所示：</p>
+<pre><code class="language-Plain">typedef struct tagPoint{    double x;    double y;    double z;} Point;
+</code></pre>
+<p>在上面的代码中，实际上完成了两个操作：1、定义了一个新的结构类型，代码如下所示：</p>
+<pre><code class="language-Plain">struct tagPoint{    double x;    double y;    double z;} ;
+</code></pre>
+<p>其中，struct 关键字和 tagPoint 一起构成了这个结构类型，无论是否存在 typedef 关键字，这个结构都存在。2、使用 typedef 为这个新的结构起了一个别名，叫 Point，即：</p>
+<pre><code class="language-Plain">typedef struct tagPoint Point
+</code></pre>
+<p>因此，现在你就可以像 int 和 double 那样直接使用 Point 定义变量，如下面的代码所示：</p>
+<pre><code class="language-Plain">Point oPoint1={100，100，0};Point oPoint2;
+</code></pre>
+<p>为了加深对 typedef 的理解，我们再来看一个结构体例子，如下面的代码所示：</p>
+<pre><code class="language-Plain">typedef struct tagNode{    char *pItem;    pNode pNext;} *pNode;
+</code></pre>
+<p>从表面上看，上面的示例代码与前面的定义方法相同，所以应该没有什么问题。但是编译器却报了一个错误，为什么呢？莫非 C 语言不允许在结构中包含指向它自己的指针？其实问题并非在于 struct 定义的本身，大家应该都知道，C 语言是允许在结构中包含指向它自己的指针的，我们可以在建立链表等数据结构的实现上看到很多这类例子。那问题在哪里呢？其实，根本问题还是在于 typedef 的应用。在上面的代码中，新结构建立的过程中遇到了 pNext 声明，其类型是 pNode。这里要特别注意的是，pNode 表示的是该结构体的新别名。于是问题出现了，在结构体类型本身还没有建立完成的时候，编译器根本就不认识 pNode，因为这个结构体类型的新别名还不存在，所以自然就会报错。因此，我们要做一些适当的调整，比如将结构体中的 pNext 声明修改成如下方式：</p>
+<pre><code class="language-Plain">typedef struct tagNode{    char *pItem; 
+struct tagNode *pNext;} *pNode;
+</code></pre>
+<p>或者将 struct 与 typedef 分开定义，如下面的代码所示：</p>
+<pre><code class="language-Plain">typedef struct tagNode *pNode;struct tagNode{    char *pItem;    pNode pNext;};
+</code></pre>
+<p>在上面的代码中，我们同样使用 typedef 给一个还未完全声明的类型 tagNode 起了一个新别名。不过，虽然 C 语言编译器完全支持这种做法，但不推荐这样做。建议还是使用如下规范定义方法：</p>
+<pre><code class="language-Plain">struct tagNode{    char *pItem;    struct tagNode *pNext;};
+typedef struct tagNode *pNode;
+</code></pre>
+<h4 id="3-为数组定义简洁的类型名称">3) 为数组定义简洁的类型名称</h4>
+<p>它的定义方法很简单，与为基本数据类型定义新的别名方法一样，示例代码如下所示：</p>
+<pre><code class="language-Plain">typedef int INT_ARRAY_100[100];INT_ARRAY_100 arr;
+</code></pre>
+<h4 id="4-为指针定义简洁的名称">4) 为指针定义简洁的名称</h4>
+<p>对于指针，我们同样可以使用下面的方式来定义一个新的别名：</p>
+<pre><code class="language-Plain">typedef char* PCHAR;PCHAR pa;
+</code></pre>
+<p>对于上面这种简单的变量声明，使用 typedef 来定义一个新的别名或许会感觉意义不大，但在比较复杂的变量声明中，typedef 的优势马上就体现出来了，如下面的示例代码所示：</p>
+<pre><code class="language-Plain">int *(*a[5])(int,char*);
+</code></pre>
+<p>对于上面变量的声明，如果我们使用 typdef 来给它定义一个别名，这会非常有意义，如下面的代码所示：</p>
+<pre><code class="language-Plain">// PFun是我们创建的一个类型别名typedef int *(*PFun)(int,char*);
+// 使用定义的新类型来声明对象，等价于int*(*a[5])(int,char*);PFun a[5];
+</code></pre>
+<h2 id="函数">函数</h2>
+<blockquote>
+<p>函数在C中实际上只是指向程序中某一个代码存在位置的指针。<br>
+FILE<br>
+strncpy( dest,src,num)<br>
+strdup()函数：复制字符串</p>
+</blockquote>
+<h3 id="io函数">IO函数</h3>
+<h4 id="fscanf"><code>fscanf</code></h4>
+<pre><code class="language-Plain">int fscanf(FILE *stream, const char *format, ...)
+</code></pre>
+<p><em><strong>参数</strong></em></p>
+<ul>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象标识了流。</li>
+<li><strong>format</strong> -- 这是 C 字符串，包含了以下各项中的一个或多个：<em>空格字符、非空格字符</em> 和 <em>format 说明符</em>。<br>
+format 说明符形式为 <strong>[=%[*][width][modifiers]type=]</strong>，具体讲解如下：<br>
+|参数|描述|<br>
+|-|-|<br>
+|*|这是一个可选的星号，表示数据是从流 stream 中读取的，但是可以被忽视，即它不存储在对应的参数中。|<br>
+|width|这指定了在当前读取操作中读取的最大字符数。|<br>
+|modifiers|为对应的附加参数所指向的数据指定一个不同于整型（针对 d、i 和 n）、无符号整型（针对 o、u 和 x）或浮点型（针对 e、f 和 g）的大小： h ：短整型（针对 d、i 和 n），或无符号短整型（针对 o、u 和 x） l ：长整型（针对 d、i 和 n），或无符号长整型（针对 o、u 和 x），或双精度型（针对 e、f 和 g） L ：长双精度型（针对 e、f 和 g）|<br>
+|type|一个字符，指定了要被读取的数据类型以及数据读取方式。具体参见下一个表格。|<br>
+<strong>fscanf 类型说明符：</strong><br>
+|类型|合格的输入|参数的类型|<br>
+|-|-|-|<br>
+|c|单个字符：读取下一个字符。如果指定了一个不为 1 的宽度 width，函数会读取 width 个字符，并通过参数传递，把它们存储在数组中连续位置。在末尾不会追加空字符。|char *|<br>
+|d|十进制整数：数字前面的 + 或 - 号是可选的。|int *|<br>
+|e,E,f,g,G|浮点数：包含了一个小数点、一个可选的前置符号 + 或 -、一个可选的后置字符 e 或 E，以及一个十进制数字。两个有效的实例 -732.103 和 7.12e4|float *|<br>
+|o|八进制整数。|int *|<br>
+|s|字符串。这将读取连续字符，直到遇到一个空格字符（空格字符可以是空白、换行和制表符）。|char *|<br>
+|u|无符号的十进制整数。|unsigned int *|<br>
+|x,X|十六进制整数。|int *|</li>
+<li><strong>附加参数</strong> -- 根据不同的 format 字符串，函数可能需要一系列的附加参数，每个参数包含了一个要被插入的值，替换了 format 参数中指定的每个 % 标签。参数的个数应与 % 标签的个数相同。<br>
+<em><strong>返回值</strong></em><br>
+如果成功，该函数返回成功匹配和赋值的个数。如果到达文件末尾或发生读错误，则返回 EOF。</li>
+</ul>
+<h4 id="fgets"><code>fgets</code></h4>
+<p><em><strong>声明</strong></em><br>
+下面是 fgets() 函数的声明。</p>
+<pre><code class="language-Plain">char *fgets(char *str, int n, FILE *stream)
+</code></pre>
+<p><em><strong>参数</strong></em></p>
+<ul>
+<li><strong>str</strong> -- 这是指向一个字符数组的指针，该数组存储了要读取的字符串。</li>
+<li><strong>n</strong> -- 这是要读取的最大字符数（包括最后的空字符）。通常是使用以 str 传递的数组长度。</li>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象标识了要从中读取字符的流。<br>
+<em><strong>返回值</strong></em><br>
+如果成功，该函数返回相同的 str 参数。如果到达文件末尾或者没有读取到任何字符，str 的内容保持不变，并返回一个空指针。<br>
+如果发生错误，返回一个空指针。</li>
+</ul>
+<h4 id="fopen"><code>fopen</code></h4>
+<p><em><strong>声明</strong></em><br>
+下面是 fopen() 函数的声明。</p>
+<pre><code class="language-Plain">FILE *fopen(const char *filename, const char *mode)
+</code></pre>
+<p><em><strong>参数</strong></em></p>
+<ul>
+<li><strong>filename</strong> -- 字符串，表示要打开的文件名称。</li>
+<li><strong>mode</strong> -- 字符串，表示文件的访问模式，可以是以下表格中的值：<br>
+|模式|描述|<br>
+|-|-|<br>
+|&quot;r&quot;|打开一个用于读取的文件。该文件必须存在。|<br>
+|&quot;w&quot;|创建一个用于写入的空文件。如果文件名称与已存在的文件相同，则会删除已有文件的内容，文件被视为一个新的空文件。|<br>
+|&quot;a&quot;|追加到一个文件。写操作向文件末尾追加数据。如果文件不存在，则创建文件。|<br>
+|&quot;r+&quot;|打开一个用于更新的文件，可读取也可写入。该文件必须存在。|<br>
+|&quot;w+&quot;|创建一个用于读写的空文件。|<br>
+|&quot;a+&quot;|打开一个用于读取和追加的文件。|<br>
+<em><strong>返回值</strong></em><br>
+该函数返回一个 FILE 指针。否则返回 NULL，且设置全局变量 errno 来标识错误。</li>
+</ul>
+<h4 id="freopen-文件流重定向流替换"><code>freopen</code>  文件流重定向，流替换</h4>
+<p>FILE *freopen(char *filename, char *type, FILE *stream);</p>
+<p>参数filename为要重定向到的文件名；type为文件打开方式，请参考fopen()函数；stream为被重定向的文件流（一般是 stdin、stdout 或 stderr）。</p>
+<p>返回值 成功则返回指向filename文件的指针，否则返回NULL。</p>
+<h4 id="fdopen-将文件描述词转为文件指针"><code>fdopen</code> 将文件描述词转为文件指针</h4>
+<p>定义函数：FILE * fdopen(int fildes, const char * mode);</p>
+<p><strong>函数说明：fdopen()会将参数fildes 的文件描述词, 转换为对应的文件指针后返回.</strong></p>
+<h4 id="fclose-关闭流-stream-刷新所有的缓冲区"><code>fclose</code> 关闭流 stream。刷新所有的缓冲区</h4>
+<pre><code class="language-Plain">int fclose(FILE *stream)
+</code></pre>
+<p>参数</p>
+<ul>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象指定了要被关闭的流。<br>
+返回值<br>
+如果流成功关闭，则该方法返回零。如果失败，则返回 EOF。</li>
+</ul>
+<h4 id="fcloseall-关闭除标准流stdin-stdout-stderr-stdprn-stdaux之外的所有打开的流刷新所有的流缓冲区并返回关闭的流数"><code>fcloseall</code> 关闭除标准流（stdin、stdout、stderr、stdprn、stdaux）之外的所有打开的流，刷新所有的流缓冲区，并返回关闭的流数。</h4>
+<p>函数原型: int fcloseall(void);</p>
+<h4 id="fgetpos-获取流-stream-的当前文件位置并把它写入到-pos"><code>fgetpos</code> 获取流 <strong>stream</strong> 的当前文件位置，并把它写入到 <strong>pos</strong>。</h4>
+<p>声明<br>
+下面是 fgetpos() 函数的声明。</p>
+<pre><code class="language-Plain">int fgetpos(FILE *stream, fpos_t *pos)
+</code></pre>
+<p>参数</p>
+<ul>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象标识了流。</li>
+<li><strong>pos</strong> -- 这是指向 fpos_t 对象的指针。<br>
+返回值<br>
+如果成功，该函数返回零。如果发生错误，则返回非零值。</li>
+</ul>
+<h4 id="fseek-设置流-stream-的文件位置为给定的偏移-offset参数-offset-意味着从给定的-whence-位置查找的字节数"><code>fseek</code> 设置流 <strong>stream</strong> 的文件位置为给定的偏移 <strong>offset</strong>，参数 offset 意味着从给定的 <strong>whence</strong> 位置查找的字节数。</h4>
+<p>下面是 fseek() 函数的声明。</p>
+<pre><code class="language-Plain">int fseek(FILE *stream, long int offset, int whence)
+</code></pre>
+<p>参数</p>
+<ul>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象标识了流。</li>
+<li><strong>offset</strong> -- 这是相对 whence 的偏移量，以字节为单位。</li>
+<li><strong>whence</strong> -- 这是表示开始添加偏移 offset 的位置。它一般指定为下列常量之一：<br>
+|常量|描述|<br>
+|-|-|<br>
+|SEEK_SET|文件的开头|<br>
+|SEEK_CUR|文件指针的当前位置|<br>
+|SEEK_END|文件的末尾|<br>
+返回值<br>
+如果成功，则该函数返回零，否则返回非零值。</li>
+</ul>
+<h4 id="ftell-返回给定流-stream-的当前文件位置"><code>ftell</code> 返回给定流 stream 的当前文件位置</h4>
+<p>下面是 ftell() 函数的声明。</p>
+<pre><code class="language-Plain">long int ftell(FILE *stream)
+</code></pre>
+<p>参数</p>
+<ul>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象标识了流。<br>
+返回值<br>
+该函数返回位置标识符的当前值。如果发生错误，则返回 -1L，全局变量 errno 被设置为一个正值。</li>
+</ul>
+<h4 id="rewind-设置文件位置为给定流-stream-的文件的开头"><code>rewind</code> 设置文件位置为给定流 <strong>stream</strong> 的文件的开头</h4>
+<pre><code class="language-Plain">void rewind(FILE *stream)
+</code></pre>
+<p>参数</p>
+<ul>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象标识了流。<br>
+返回值 ： <strong>该函数不返回任何值。</strong></li>
+</ul>
+<h4 id="fprintf-发送格式化输出到流-stream-中"><code>fprintf</code> 发送格式化输出到流 stream 中。</h4>
+<pre><code class="language-Plain">int fprintf(FILE *stream, const char *format, ...)
+</code></pre>
+<p>参数</p>
+<ul>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象标识了流。</li>
+<li><strong>format</strong> -- 这是 C 字符串，包含了要被写入到流 stream 中的文本。它可以包含嵌入的 format 标签，format 标签可被随后的附加参数中指定的值替换，并按需求进行格式化。format 标签属性是 <strong>%[flags][width][.precision][length]specifier</strong>，具体讲解如下：<br>
+|specifier（说明符）|输出|<br>
+|-|-|<br>
+|c|字符|<br>
+|d 或 i|有符号十进制整数|<br>
+|e|使用 e 字符的科学科学记数法（尾数和指数）|<br>
+|E|使用 E 字符的科学科学记数法（尾数和指数）|<br>
+|f|十进制浮点数|<br>
+|g|自动选择 %e 或 %f 中合适的表示法|<br>
+|G|自动选择 %E 或 %f 中合适的表示法|<br>
+|o|有符号八进制|<br>
+|s|字符的字符串|<br>
+|u|无符号十进制整数|<br>
+|x|无符号十六进制整数|<br>
+|X|无符号十六进制整数（大写字母）|<br>
+|p|指针地址|<br>
+|n|无输出|<br>
+|%|字符|</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>flags（标识）</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-</td>
+<td>在给定的字段宽度内左对齐，默认是右对齐（参见 width 子说明符）。</td>
+</tr>
+<tr>
+<td>+</td>
+<td>强制在结果之前显示加号或减号（+ 或 -），即正数前面会显示 + 号。默认情况下，只有负数前面会显示一个 - 号。</td>
+</tr>
+<tr>
+<td>(space)</td>
+<td>如果没有写入任何符号，则在该值前面插入一个空格。</td>
+</tr>
+<tr>
+<td>#</td>
+<td>与 o、x 或 X 说明符一起使用时，非零值前面会分别显示 0、0x 或 0X。 与 e、E 和 f 一起使用时，会强制输出包含一个小数点，即使后边没有数字时也会显示小数点。默认情况下，如果后边没有数字时候，不会显示显示小数点。 与 g 或 G 一起使用时，结果与使用 e 或 E 时相同，但是尾部的零不会被移除。</td>
+</tr>
+<tr>
+<td>0</td>
+<td>在指定填充 padding 的数字左边放置零（0），而不是空格（参见 width 子说明符）。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>width（宽度）</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(number)</td>
+<td>要输出的字符的最小数目。如果输出的值短于该数，结果会用空格填充。如果输出的值长于该数，结果不会被截断。</td>
+</tr>
+<tr>
+<td>*</td>
+<td>宽度在 format 字符串中未指定，但是会作为附加整数值参数放置于要被格式化的参数之前。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>.precision（精度）</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.number</td>
+<td>对于整数说明符（d、i、o、u、x、X）：precision 指定了要写入的数字的最小位数。如果写入的值短于该数，结果会用前导零来填充。如果写入的值长于该数，结果不会被截断。精度为 0 意味着不写入任何字符。 对于 e、E 和 f 说明符：要在小数点后输出的小数位数。 对于 g 和 G 说明符：要输出的最大有效位数。 对于 s: 要输出的最大字符数。默认情况下，所有字符都会被输出，直到遇到末尾的空字符。 对于 c 类型：没有任何影响。 当未指定任何精度时，默认为 1。如果指定时不带有一个显式值，则假定为 0。</td>
+</tr>
+<tr>
+<td>.*</td>
+<td>精度在 format 字符串中未指定，但是会作为附加整数值参数放置于要被格式化的参数之前。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>length（长度）</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>h</td>
+<td>参数被解释为短整型或无符号短整型（仅适用于整数说明符：i、d、o、u、x 和 X）。</td>
+</tr>
+<tr>
+<td>l</td>
+<td>参数被解释为长整型或无符号长整型，适用于整数说明符（i、d、o、u、x 和 X）及说明符 c（表示一个宽字符）和 s（表示宽字符字符串）。</td>
+</tr>
+<tr>
+<td>L</td>
+<td>参数被解释为长双精度型（仅适用于浮点数说明符：e、E、f、g 和 G）。</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>附加参数</strong> -- 根据不同的 format 字符串，函数可能需要一系列的附加参数，每个参数包含了一个要被插入的值，替换了 format 参数中指定的每个 % 标签。参数的个数应与 % 标签的个数相同。<br>
+返回值<br>
+如果成功，则返回写入的字符总数，否则返回一个负数。</li>
+</ul>
+<h4 id="fwrite-把-ptr-所指向的数组中的数据写入到给定流-stream-中"><code>fwrite</code> 把 <strong>ptr</strong> 所指向的数组中的数据写入到给定流 <strong>stream</strong> 中。</h4>
+<pre><code class="language-Plain">size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream)
+</code></pre>
+<p><em><strong>参数</strong></em></p>
+<ul>
+<li><strong>ptr</strong> -- 这是指向要被写入的元素数组的指针。</li>
+<li><strong>size</strong> -- 这是要被写入的每个元素的大小，以字节为单位。</li>
+<li><strong>nmemb</strong> -- 这是元素的个数，每个元素的大小为 size 字节。</li>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象指定了一个输出流。<br>
+<em><strong>返回值</strong></em><br>
+如果成功，该函数返回一个 size_t 对象，表示元素的总数，该对象是一个整型数据类型。如果该数字与 nmemb 参数不同，则会显示一个错误。</li>
+</ul>
+<h4 id="fread-从给定流-stream-读取数据到-ptr-所指向的数组中"><code>fread</code> 从给定流 <strong>stream</strong> 读取数据到 <strong>ptr</strong> 所指向的数组中</h4>
+<p>下面是 fread() 函数的声明。</p>
+<pre><code class="language-Plain">size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)
+</code></pre>
+<p>参数</p>
+<ul>
+<li><strong>ptr</strong> -- 这是指向带有最小尺寸 <em>size</em>nmemb* 字节的内存块的指针。</li>
+<li><strong>size</strong> -- 这是要读取的每个元素的大小，以字节为单位。</li>
+<li><strong>nmemb</strong> -- 这是元素的个数，每个元素的大小为 size 字节。</li>
+<li><strong>stream</strong> -- 这是指向 FILE 对象的指针，该 FILE 对象指定了一个输入流。<br>
+返回值<br>
+成功读取的元素总数会以 size_t 对象返回，size_t 对象是一个整型数据类型。如果总数与 nmemb 参数不同，则可能发生了一个错误或者到达了文件末尾。</li>
+</ul>
+<h2 id="内存">内存</h2>
+<blockquote>
+<p>在c/c++中内存分为5个区，分别为<strong>栈区、堆区、全局/静态存储区、常量存储区、代码区</strong></p>
+</blockquote>
+<h3 id="内存分配">内存分配</h3>
+<p>可分为静态和动态<br>
+1.<strong>静态内存分配：</strong><br>
+编译时分配往往为各种全局变量，不可操作</p>
+<p>2.<strong>动态内存分配：</strong></p>
+<p><strong>栈区（stack）：<strong>指那些由编译器在需要的时候分配，不需要时自动清除的变量所在的储存区，如</strong>函数执行时，函数的形参以及函数内的局部变量分配在栈区，函数运行结束后，形参和局部变量去栈</strong>（自动释放）。栈内存分配运算内置与处理器的指令集中，效率高但是分配的内存空间有限。<br>
+**堆区（heap）：**指哪些由程序员手动分配释放的储存区，如果程序员不释放这块内存，内存将一直被占用，<strong>直到程序运行结束由系统自动收回</strong>，c语言中使用malloc，free申请和释放空间。<br>
+**静态储存区（static）：**全局变量和静态变量的储存是放在一块的，其中初始化的全局变量和静态变量在一个区域，这块空间当程序运行结束后由系统释放。<br>
+**常量储存区（const）：*<em>常量字符串就是储存在这里的，如“ABC”字符串就储存在常量区，储存在常量区的只读不可写。const修饰的全局变量也储存在常量区，const修饰的局部变量依然在栈上。<br>
+<strong>程序代码区：<strong>存放源程序的二进制代码。<br>
+free函数<br>
+free () 函数用来</strong>释放动态分配的内存空间</strong>，其原型为： void free (void</em> ptr); free () 可以释放由 malloc () 、 calloc () 、 realloc () 分配的内存空间，以便其他程序再次使用。</p>
+<h2 id="指针">指针</h2>
+<blockquote>
+<p>函数在C中实际上只是指向程序中某一个代码存在位置的指针。就像你创建过的结构体指针、字符串和数组那样，你也可以创建指向函数的指针。函数指针的主要用途是向其他函数传递“回调”</p>
+</blockquote>
+<h3 id="函数指针">函数指针</h3>
+<ol>
+<li>编写方法</li>
+</ol>
+<ul>
+<li>编写一个普通的函数声明：<code>int callme(int a, int b)</code></li>
+<li>将函数用指针语法包装：<code>int (*callme)(int a, int b)</code></li>
+<li>将名称改成指针名称：<code>int (*compare_cb)(int a, int b)</code></li>
+</ul>
+<h2 id="预处理器">预处理器</h2>
+<blockquote>
+<p>C预处理器是个模板处理系统，它主要的用途是让C代码的编程更加容易，但是它通过一个语法感知的模板机制来实现。以前人们主要使用C预处理器来储存常量，以及创建“宏”来简化复杂的代码。在现代C语言中你会实际上使用它作为代码生成器来创建模板化的代码片段<br>
+C预处理器的工作原理是，如果你给它一个文件，比如<code>.c</code>文件，它会处理以<code>#</code>（井号）字符开头的各种文本。当它遇到一个这样的文本时，它会对输入文件中的文本做特定的替换。C预处理器的主要优点是他可以包含其他文件，并且基于该文件的内容对它的宏列表进行扩展。</p>
+</blockquote>
+<h3 id="头文件">头文件</h3>
+<p>stdio.h<br>
+string.h<br>
+stdlib.h<br>
+assert.h</p>
+<h3 id="宏">宏</h3>
+<p><strong>宏</strong>（英语：Macro），是一种批量处理的称谓。<br>
+计算机科学里的宏是一种抽象（Abstraction），它根据一系列预定义的规则替换一定的文本模式。解释器或编译器在遇到宏时会自动进行这一模式替换。对于编译语言，宏展开在编译时发生，进行宏展开的工具常被称为宏展开器。宏这一术语也常常被用于许多类似的环境中，它们是源自宏展开的概念，这包括键盘宏和宏语言。绝大多数情况下，“宏”这个词的使用暗示着将小命令或动作转化为一系列指令。<br>
+- from wiki<br>
+#### 预定义变量<br>
+- <strong>LINE</strong> 和 <strong>FILE</strong> 变量表示正在处理的当前行和当前文件.<br>
+- <strong>DATE</strong> 变量表示当前日期,格式为<em>month/day/year</em>(月/日/年).<br>
+- <strong>TIME</strong> 变量描述当前的时间,格式为<em>hour:minute:second</em>(时:分:秒).<br>
+- _cplusplus 变量只在编译一个C++程序时定义.<br>
+- <strong>STDC</strong> 变量在编译一个C程序时定义,编译C++时也有可能定义.<br>
+#### [[define]]</p>
+<pre><code class="language-Plain">[[define]] NEW(T, N)  Object_new(sizeof(T), T##Proto, N)
+</code></pre>
+<p>即执行NEW 时 系统会自动将NEW转换为Object_new</p>
+<h4 id="assert">assert</h4>
+<p><em>语法:</em></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>**  [[include]] &lt;assert.h&gt;  void assert( int exp );**</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>功能：</strong> 宏assert()用于错误检测。如果表达式的结果为零，宏写错误信息到STDERR并退出程序执行。如果宏NDEBUG已经定义，宏assert()将被忽略。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-C">[[ifndef]] &lt;标识&gt;
+[[define]] &lt;标识&gt;
+</code></pre>
+<p>&lt;标识&gt;在理论上来说可以是自由命名的，但每个头文件的这个“标识”都应该是唯一的。<br>
+标识的命名规则一般是头文件名全大写，前后加下划线，并把文件名中的“.”也变成下划线，<br>
+如：stdio.h [[ifndef]] <em>STDIO_H</em> [[define]] <em>STDIO_H</em><br>
+是一个可变参数的宏</p>
+<h4 id="va_args">## <strong>VA_ARGS</strong></h4>
+<p>意思是将剩余的所有额外参数放到这里。<br>
+##的意思是，如果可变参数被忽略或为空，将使预处理器（ preprocessor ）去除掉它前面的那个逗号。</p>
+<h2 id="栈作用域和全局">栈，作用域和全局</h2>
+<p><code>extern</code><br>
+这个关键词告诉编译器“这个变量已存在，但是他在别的‘外部区域’里”。通常它的意思是一个<code>.c</code>文件要用到另一个<code>.c</code>文件中定义的变量。这种情况下，我们可以说<code>ex2.c</code>中的<code>THE_SIZE</code>变量能变为<code>ex22_main.c</code>访问到。<br>
+<code>static</code>（文件）<br>
+这个关键词某种意义上是<code>extern</code>的反义词，意思是这个变量只能在当前的<code>.c</code>文件中使用，程序的其它部分不可访问。要记住文件级别的<code>static</code>（比如这里的<code>THE_AGE</code>）和其它位置不同。<br>
+<code>static</code>（函数）<br>
+如果你使用<code>static</code>在函数中声明变量，它和文件中的<code>static</code>定义类似，但是只能够在该函数中访问。它是一种创建某个函数的持续状态的方法，但事实上它跟梢用于现代的C语言，因为它们很难和线程一起使用。</p>
+<ol>
+<li>const 定义的值不可改变</li>
+</ol>
+]]></content>
+    </entry>
+</feed>
